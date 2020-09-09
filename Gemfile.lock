@@ -1,0 +1,95 @@
+GIT
+  remote: https://github.com/craftyphotons/omniauth-indieauth.git
+  revision: 08f40454b105bb005c530f67c3bfe7dbb774523a
+  branch: endpoint-discovery
+  specs:
+    omniauth-indieauth (0.1.0)
+      faraday (~> 1.0)
+      faraday_middleware (~> 1.0)
+      indieauth_discovery (~> 0.1)
+      omniauth (~> 1.9)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    absolutely (4.0.0)
+      addressable (~> 2.7)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    ast (2.4.1)
+    dotenv (2.7.6)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (1.0.0)
+      faraday (~> 1.0)
+    hashie (4.1.0)
+    indieauth_discovery (0.1.1)
+      faraday (~> 1.0)
+      faraday_middleware (~> 1.0)
+      link-header-parser (~> 2.0)
+      nokogiri (~> 1.10)
+    link-header-parser (2.0.0)
+      absolutely (~> 4.0)
+    mini_portile2 (2.4.0)
+    multi_json (1.15.0)
+    multipart-post (2.1.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    omniauth (1.9.1)
+      hashie (>= 3.4.6)
+      rack (>= 1.6.2, < 3)
+    parallel (1.19.2)
+    parser (2.7.1.4)
+      ast (~> 2.4.1)
+    public_suffix (4.0.6)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
+    rainbow (3.0.0)
+    regexp_parser (1.7.1)
+    rexml (3.2.4)
+    rubocop (0.90.0)
+      parallel (~> 1.10)
+      parser (>= 2.7.1.1)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.7)
+      rexml
+      rubocop-ast (>= 0.3.0, < 1.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (0.3.0)
+      parser (>= 2.7.1.4)
+    rubocop-performance (1.8.0)
+      rubocop (>= 0.87.0)
+    ruby-progressbar (1.10.1)
+    ruby2_keywords (0.0.2)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    sinatra-contrib (2.1.0)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.1.0)
+      sinatra (= 2.1.0)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+    unicode-display_width (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  omniauth
+  omniauth-indieauth!
+  rubocop (~> 0.90)
+  rubocop-performance (~> 1.8)
+  sinatra
+  sinatra-contrib (~> 2.1)
+
+BUNDLED WITH
+   2.1.4

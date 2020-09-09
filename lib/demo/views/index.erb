@@ -1,0 +1,8 @@
+<% if session[:me] %>
+  <p>Logged in as <%= session[:me] %></p>
+  <p><a href="/logout">Log out</a></p>
+  <h1>Profile</h1>
+  <pre><code><%= JSON.pretty_generate(session[:profile]) %></code></pre>
+<% else %>
+  <p><a href="/login">Log in</a></p>
+<% end %>

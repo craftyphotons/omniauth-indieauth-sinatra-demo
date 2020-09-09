@@ -1,0 +1,14 @@
+#inherit_from: .rubocop_todo.yml
+
+require:
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - vendor/**/*
+  TargetRubyVersion: 2.7
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
