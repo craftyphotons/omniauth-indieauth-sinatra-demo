@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/craftyphotons/omniauth-indieauth.git
-  revision: 08f40454b105bb005c530f67c3bfe7dbb774523a
+  revision: 6883e71c17558e60f8b52112571822968834422b
   branch: endpoint-discovery
   specs:
     omniauth-indieauth (0.1.0)
